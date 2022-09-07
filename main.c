@@ -8,8 +8,8 @@
  */
 #include <stdio.h>
 #include <stdlib.h>
-#include <libusb.h>
 #include <ncurses.h>
+#include <libusb-1.0/libusb.h>
 
 // The LG vendor id is used to distinguish LG devices from
 // those of other vendors.
