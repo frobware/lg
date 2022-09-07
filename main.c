@@ -161,7 +161,7 @@ void adjustOnce(libusb_device **lgdevs, char ch) {
 
   cleanup(true, lg_handle);
 
-  printf("%d%\n", brightnessPercent);
+  printf("%d%%\n", brightnessPercent);
 }
 
 // Adjust the brightness interactively
@@ -187,7 +187,7 @@ void adjust(libusb_device **lgdevs) {
     }
     brightnessPercent = handleChar(lg_handle, ch);
     clrtoeol();
-    printw("%d%\r", brightnessPercent);
+    printw("%d%%\r", brightnessPercent);
   }
 }
 
