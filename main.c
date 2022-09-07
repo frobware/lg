@@ -8,8 +8,8 @@
  */
 #include <stdio.h>
 #include <stdlib.h>
-#include <curses.h>
 #include <libusb.h>
+#include <ncurses.h>
 
 // The LG vendor id is used to distinguish LG devices from
 // those of other vendors.
